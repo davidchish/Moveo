@@ -1,0 +1,7 @@
+@Moveo_HostAddress = http://localhost:5282
+@AccessToken = ''
+GET {{Moveo_HostAddress}}/Moveo/
+Accept: application/json
+Authorization: Bearer {{AccessToken}}
+
+###
